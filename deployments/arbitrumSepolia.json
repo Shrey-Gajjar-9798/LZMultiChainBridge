@@ -1,0 +1,7 @@
+{
+  "network": "arbitrumSepolia",
+  "contractAddress": "0x72A8D1F3baC8C4170B87139642e5821D066C9c01",
+  "lzEndpoint": "0x6098e96a28E02f27B1e6BD381f870F1C8Bd169d3",
+  "deployer": "0x2a2d22FbAC7e5Cbf979701FCF5686eDf3478A6eE",
+  "deploymentHash": "0x5a47095840c4ced157ba8bd475bd0132b4e2051d817e51293f8f100b100cf9e3"
+}
