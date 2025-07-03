@@ -1,0 +1,7 @@
+{
+  "network": "sepolia",
+  "contractAddress": "0x72A8D1F3baC8C4170B87139642e5821D066C9c01",
+  "lzEndpoint": "0xae92d5aD7583AD66E49A0c67BAd18F6ba52dDDc1",
+  "deployer": "0x2a2d22FbAC7e5Cbf979701FCF5686eDf3478A6eE",
+  "deploymentHash": "0x7c45deb3f675569b3feb44cca76703b505b811da8d9d0bc0b030a0026321d6ae"
+}
