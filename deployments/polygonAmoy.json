@@ -1,0 +1,7 @@
+{
+  "network": "polygonAmoy",
+  "contractAddress": "0xA99BB19f850Ed369C9fE564d335e01295009dDB4",
+  "lzEndpoint": "0x55370E0fBB5f5b8dAeD978BA1c075a499eB107B8",
+  "deployer": "0x970596Acb33401462dd77436e63ee6B1B227a063",
+  "deploymentHash": "0x10d251137f3395967cb3020b47964f0a4a0759e3038ab3a2e4bb3f01907b5b15"
+}

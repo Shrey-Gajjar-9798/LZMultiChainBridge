@@ -5,6 +5,11 @@ const LAYERZERO_ENDPOINTS = {
   sepolia: "0xae92d5aD7583AD66E49A0c67BAd18F6ba52dDDc1",
   arbitrumSepolia: "0x6098e96a28E02f27B1e6BD381f870F1C8Bd169d3",
   bscTestnet: "0x6Fcb97553D41516Cb228ac03FdC8B9a0a9df04A1",
+  polygonAmoy: "0x55370E0fBB5f5b8dAeD978BA1c075a499eB107B8",
+  opSepolia: "0x55370E0fBB5f5b8dAeD978BA1c075a499eB107B8",
+  baseSepolia: "0x55370E0fBB5f5b8dAeD978BA1c075a499eB107B8",
+  avalancheFuji:"0x93f54D755A063cE7bB9e6Ac47Eccc8e33411d706",
+  zkSyncSepolia: "0x99b6359ce8E0eBdC27eBeDb76FE28F29303E78fF"
 };
 
 async function main() {
@@ -22,13 +27,13 @@ async function main() {
 
   console.log(`Using LayerZero endpoint: ${lzEndpoint}`);
 
-  // Deploy GasZipLZ contract
-  const GasZipLZ = await ethers.getContractFactory("GasZipLZ");
-  const gasZipLZ = await GasZipLZ.deploy(lzEndpoint);
-  await gasZipLZ.waitForDeployment();
-  
-  const contractAddress = await gasZipLZ.getAddress();
-  console.log(`GasZipLZ deployed to: ${contractAddress}`);
+  // Deploy LZRefuel contract
+  const LZRefuel = await ethers.getContractFactory("LZRefuel");
+  const lzRefuel = await LZRefuel.deploy(lzEndpoint);
+  await lzRefuel.waitForDeployment();
+
+  const contractAddress = await lzRefuel.getAddress();
+  console.log(`LZRefuel deployed to: ${contractAddress}`);
 
   // Save deployment info
   const deploymentInfo = {
@@ -36,7 +41,7 @@ async function main() {
     contractAddress: contractAddress,
     lzEndpoint: lzEndpoint,
     deployer: deployer.address,
-    deploymentHash: gasZipLZ.deploymentTransaction().hash
+    deploymentHash: lzRefuel.deploymentTransaction().hash
   };
 
   console.log("\n=== Deployment Summary ===");

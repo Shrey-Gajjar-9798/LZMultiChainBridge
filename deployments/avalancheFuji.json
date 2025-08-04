@@ -1,0 +1,7 @@
+{
+  "network": "avalancheFuji",
+  "contractAddress": "0xA99BB19f850Ed369C9fE564d335e01295009dDB4",
+  "lzEndpoint": "0x93f54D755A063cE7bB9e6Ac47Eccc8e33411d706",
+  "deployer": "0x970596Acb33401462dd77436e63ee6B1B227a063",
+  "deploymentHash": "0x1e31ef22c2de4d6a3dfd4fa9d9076da5f651fc5647185432e48f16a5ed5723d7"
+}

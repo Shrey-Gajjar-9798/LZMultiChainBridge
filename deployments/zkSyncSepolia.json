@@ -1,0 +1,7 @@
+{
+  "network": "zkSyncSepolia",
+  "contractAddress": "0xA99BB19f850Ed369C9fE564d335e01295009dDB4",
+  "lzEndpoint": "0x99b6359ce8E0eBdC27eBeDb76FE28F29303E78fF",
+  "deployer": "0x970596Acb33401462dd77436e63ee6B1B227a063",
+  "deploymentHash": "0xa4f14e708270375de4e1a9451beed5e001ba358587ffd2e073fa8c6e82fe679a"
+}

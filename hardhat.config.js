@@ -28,14 +28,33 @@ module.exports = {
       url: process.env.BSC_TESTNET_RPC_URL,
       accounts: [process.env.PRIVATE_KEY],
     },
-
+    polygonAmoy: {
+      url: process.env.POLYGON_AMOY_RPC,
+      accounts: [process.env.PRIVATE_KEY],
+    },
+    opSepolia: {
+      url: process.env.OPTIMISM_RPC,
+      accounts: [process.env.PRIVATE_KEY],
+    },
+    baseSepolia: {
+      url: process.env.BASE_RPC,
+      accounts: [process.env.PRIVATE_KEY],
+    },
+    avalancheFuji: {
+      url: process.env.AVALANCHE_FUJI_RPC,
+      accounts: [process.env.PRIVATE_KEY],
+    },
+    zkSyncSepolia: {
+      url: process.env.ZKSYNC_SEPOLIA_RPC,
+      accounts: [process.env.PRIVATE_KEY],
+    }
   },
   etherscan: {
     apiKey: {
       sepolia: process.env.ETHERSCAN_API_KEY,
       arbitrumSepolia: process.env.ARBISCAN_API_KEY,
       optimismSepolia: process.env.OPTIMISM_API_KEY,
-      polygonMumbai: process.env.POLYGONSCAN_API_KEY,
+      polygonAmoy: process.env.POLYGONSCAN_API_KEY,
     },
   },
 };

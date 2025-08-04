@@ -1,0 +1,7 @@
+{
+  "network": "bscTestnet",
+  "contractAddress": "0x72A8D1F3baC8C4170B87139642e5821D066C9c01",
+  "lzEndpoint": "0x6Fcb97553D41516Cb228ac03FdC8B9a0a9df04A1",
+  "deployer": "0x2a2d22FbAC7e5Cbf979701FCF5686eDf3478A6eE",
+  "deploymentHash": "0x38c8f435b8bd36730aa1dbe95c1c03497c33d8e05063228704774e72c1028efc"
+}

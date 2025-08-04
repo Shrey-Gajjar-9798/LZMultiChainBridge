@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 import "./OptimizedLzApp.sol";
 
-contract GasZipLZ is OptimizedLzApp {
+contract LZRefuel is OptimizedLzApp {
     constructor(address _lzEndpoint) OptimizedLzApp(_lzEndpoint) {
         _initializeOwner(msg.sender);
     }
